@@ -10,22 +10,26 @@
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>26D0F26F3424B086216F439258C3D580FF273EBC</key>
+		<string>https://github.com/Jordan-M-Schultz/Objective-C.git</string>
 		<key>2CD0223CAF7EDF5D7AC76E17E97E7BC14DCE5F3A</key>
 		<string>https://github.com/Jordan-M-Schultz/Xcode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CardGame/CardGame.xcodeproj/project.xcworkspace</string>
+	<string>CardGame.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>26D0F26F3424B086216F439258C3D580FF273EBC</key>
+		<string>../..</string>
 		<key>2CD0223CAF7EDF5D7AC76E17E97E7BC14DCE5F3A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Jordan-M-Schultz/Xcode.git</string>
+	<string>https://github.com/Jordan-M-Schultz/Objective-C.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2CD0223CAF7EDF5D7AC76E17E97E7BC14DCE5F3A</string>
+	<string>26D0F26F3424B086216F439258C3D580FF273EBC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>2CD0223CAF7EDF5D7AC76E17E97E7BC14DCE5F3A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Xcode</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>26D0F26F3424B086216F439258C3D580FF273EBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CardGame</string>
 		</dict>
 	</array>
 </dict>

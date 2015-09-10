@@ -93,14 +93,7 @@
 		176430EB1B9E46010097C38B /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
-				176431121B9E48220097C38B /* Card.h */,
-				176431181BA0BFA50097C38B /* PlayingCard.h */,
-				176431191BA0C0760097C38B /* PlayingCard.m */,
-				1764311B1BA23EDF0097C38B /* PlayingCardDeck.h */,
-				1764311C1BA23F3D0097C38B /* PlayingCardDeck.m */,
-				176431131B9E48450097C38B /* Card.m */,
-				176431151B9FBF890097C38B /* Deck.h */,
-				176431161B9FC0390097C38B /* Deck.m */,
+				1764311E1BA245E40097C38B /* Model */,
 				176430F31B9E46010097C38B /* CardGameViewController.h */,
 				176430F41B9E46010097C38B /* CardGameViewController.m */,
 				176430F61B9E46010097C38B /* Main.storyboard */,
@@ -137,6 +130,21 @@
 				176431071B9E46010097C38B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1764311E1BA245E40097C38B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				176431121B9E48220097C38B /* Card.h */,
+				176431131B9E48450097C38B /* Card.m */,
+				176431181BA0BFA50097C38B /* PlayingCard.h */,
+				176431191BA0C0760097C38B /* PlayingCard.m */,
+				1764311B1BA23EDF0097C38B /* PlayingCardDeck.h */,
+				1764311C1BA23F3D0097C38B /* PlayingCardDeck.m */,
+				176431151B9FBF890097C38B /* Deck.h */,
+				176431161B9FC0390097C38B /* Deck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
