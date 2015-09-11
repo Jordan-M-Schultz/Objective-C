@@ -9,19 +9,37 @@
 #import "CardGameViewController.h"
 
 @interface CardGameViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *flipLabel;
+@property (nonatomic) int flipCount;
 @end
+
 
 @implementation CardGameViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+-(void)setFlipCount:(int)flipCount{
+    _flipCount = flipCount;
+    self.flipLabel.text = [NSString stringWithFormat:@"Flip Count %d",self.flipCount];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)touchCardButton:(UIButton *)sender { // IBAction is void
+    NSString* temp;
+    if([sender.currentTitle length]) //if there is a title
+    {
+        temp = sender.currentTitle;
+        [sender setBackgroundImage:[UIImage imageNamed:(@"CardBack")] forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    }
+    else
+    {
+        [sender setBackgroundImage:[UIImage imageNamed:(@"CardFront")] forState:UIControlStateNormal];
+        [sender setTitle:@"A❤︎" forState:UIControlStateNormal];
+        // change temp to random card title
+    }
+    self.flipCount++;
+
 }
+
 
 @end
